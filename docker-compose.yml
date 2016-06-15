@@ -11,3 +11,5 @@ web:
     - .env
 db:
   image: mongo
+  ports:
+    - "27017:27017"
